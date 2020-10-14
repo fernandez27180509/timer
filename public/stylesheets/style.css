@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@font-face {
+  font-family:'digital-clock';
+  src: url('/fonts/digital.ttf');
+}
+
+body {
+  background-color: rgb(23, 138, 0);
+}
+
+#controls {
+  text-align: center;
+}
+
+#main-title {
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 10vw;
+}
+
+.clock-component {
+  font-family: "digital-clock";
+  font-size: 20vw;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
